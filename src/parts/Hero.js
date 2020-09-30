@@ -2,9 +2,6 @@ import React from 'react'
 
 import ImageHero from 'assets/images/img-hero.jpg'
 import ImageHero_ from 'assets/images/img-hero-frame.jpg'
-import IconCities from 'assets/images/icons/ic_cities.svg'
-import IconTraveler from 'assets/images/icons/ic_traveler.svg'
-import IconTreasure from 'assets/images/icons/ic_treasure.svg'
 
 import Button from 'elements/Button'
 import Fade from 'react-reveal/Fade';
@@ -40,21 +37,21 @@ export default function Hero(props) {
 
                     <div className="row" style={{ marginTop: 80 }}>
                         <div className="col-auto" style={{marginRight: 35}}>
-                            <img src={IconTraveler} width="36" height="36" alt={`${props.data.travelers} Travelers`}></img>
+                            <img src="/images/ic_traveler.svg" width="36" height="36" alt={`${props.data.travelers} Travelers`}></img>
                             <h6 className="mt-3">
                                 {formatNumber(props.data.travelers)} <span className="text-gray-500 font-weight-light">travelers</span>
                             </h6>
                         </div>   
 
                         <div className="col-auto" style={{marginRight: 35}}>
-                            <img src={IconTreasure} width="36" height="36" alt={`${props.data.treasures} Treasures`}></img>
+                            <img src="/images/ic_treasure.svg" width="36" height="36" alt={`${props.data.treasures} Treasures`}></img>
                             <h6 className="mt-3">
                                 {formatNumber(props.data.treasures)} <span className="text-gray-500 font-weight-light">treasures</span>
                             </h6>
                         </div>   
 
                         <div className="col-auto">
-                            <img src={IconCities} width="36" height="36" alt={`${props.data.cities} Cities`}></img>
+                            <img src="/images/ic_cities.svg" width="36" height="36" alt={`${props.data.cities} Cities`}></img>
                             <h6 className="mt-3">
                                 {formatNumber(props.data.cities)} <span className="text-gray-500 font-weight-light">cities</span>
                             </h6>

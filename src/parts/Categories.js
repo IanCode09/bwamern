@@ -46,7 +46,6 @@ export default function Categories({data}) {
                                     </div>
                                     </Fade>
                                 </div>
-                                
                             )
                         })
                     )}
